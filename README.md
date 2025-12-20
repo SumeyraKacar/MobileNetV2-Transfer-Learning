@@ -1,7 +1,6 @@
-[README.md](https://github.com/user-attachments/files/24274185/README.md)
 # MobileNetV2 ile Görüntü Sınıflandırma ve Transfer Learning
 
-[cite_start]Bu proje, Google'ın **MobileNetV2** mimarisini kullanarak nesne tanıma yapmayı ve **Transfer Learning** (Transfer Öğrenme) mantığını teknik olarak göstermeyi amaçlar.
+Bu proje, Google'ın **MobileNetV2** mimarisini kullanarak nesne tanıma yapmayı ve **Transfer Learning** (Transfer Öğrenme) mantığını teknik olarak göstermeyi amaçlar.
 
 ## 📁 Proje Klasör Yapısı
 - **model.py**: TensorFlow Hub üzerinden MobileNetV2 modelini yükler. [cite_start]`is_transfer` parametresi ile modelin iki farklı modda çalışmasını sağlar[cite: 2].
