@@ -11,19 +11,19 @@ Bu proje, Google'ın **MobileNetV2** mimarisini kullanarak nesne tanıma yapmay�
 🛠️ Kurulum
 Projenin çalışması için gerekli kütüphaneleri şu komutla yükleyebilirsiniz:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 📊 Kullanım
 
 1. Tahminleme Yapmak (Demo)
 Modelin hazır bilgilerini kullanarak yerel bir resmi sınıflandırmak için:
 
-python test.py
+        python test.py
 
 2. Transfer Learning Mimarisini İncelemek
 Modelin son katmanının (Dense Layer) nasıl değiştiğini görmek için:
 
-python train.py
+        python train.py
 
 🧠 Teknik Notlar
 - **Girdi Boyutu**: Model $224 \times 224$ piksel boyutunda resimler bekler.
