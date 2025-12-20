@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/24274209/README.md)
 # MobileNetV2 ile Görüntü Sınıflandırma ve Transfer Learning
 
 Bu proje, Google'ın **MobileNetV2** mimarisini kullanarak nesne tanıma yapmayı ve **Transfer Learning** (Transfer Öğrenme) mantığını teknik olarak göstermeyi amaçlar.
@@ -11,7 +10,7 @@ Bu proje, Google'ın **MobileNetV2** mimarisini kullanarak nesne tanıma yapmay�
 
 🛠️ Kurulum
 Projenin çalışması için gerekli kütüphaneleri şu komutla yükleyebilirsiniz:
-```bash
+
 pip install -r requirements.txt
 
 📊 Kullanım
@@ -25,3 +24,8 @@ python test.py
 Modelin son katmanının (Dense Layer) nasıl değiştiğini görmek için:
 
 python train.py
+
+🧠 Teknik Notlar
+-Girdi Boyutu: Model $224 \times 224$ piksel boyutunda resimler bekler.
+-Normalizasyon: Resim pikselleri model başarısı için 0-1 arasına çekilmektedir.
+-Transfer Learning: train.py çalıştırıldığında modelin son katmanının 1001 sınıftan 5 sınıfa düşürüldüğü mimari özetinde görülebilir.
