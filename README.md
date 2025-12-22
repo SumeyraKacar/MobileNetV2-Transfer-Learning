@@ -1,7 +1,7 @@
 # 🌸 MobileNetV2 ile Çiçek Sınıflandırma (Transfer Learning)
 
 Bu proje, PyTorch kütüphanesi ve **MobileNetV2** mimarisi kullanılarak doğadaki çiçek türlerini tanımak amacıyla geliştirilmiştir. 
-**Transfer Learning** yöntemiyle eğitilen model, internet bağlantısına ihtiyaç duymadan yerel ağırlıklar üzerinden çalışabilmektedir.
+**Transfer Learning** yöntemiyle eğitilen model, yerel ağırlıklar (.pth) üzerinden offline (internet gerektirmeden) çalışabilmektedir.
 
 ## 📝 Sunum Maddelerine Göre Proje Özeti
 
@@ -10,11 +10,13 @@ Modern derin öğrenme modellerini sıfırdan eğitmek devasa donanım ve zaman 
 
 ### 2. Kullanılan Veri Seti ve Analizi
 * **Kaynak:** ImageNet (Genel) ve Kaggle Flowers Dataset (Özel).
-* **Önişleme:** Görüntüler 224x224 boyutuna getirilmiş ve ImageNet standartlarında normalize edilmiştir.
+* **İşlem:** Görüntüler model girişine uygun olarak 224x224 boyutuna getirilmiştir.
+* **Normalizasyon:**ImageNet standartlarında (RGB kanalları için özel ortalama ve sapma değerleri) normalize edilerek modelin veriye daha hızlı uyum sağlaması sağlanmıştır.
 
 ### 3. Uygulanan Yöntem(ler)
 * **Model:** MobileNetV2 (Hafif ve verimli mimari).
 * **Yapı:** Önceden eğitilmiş katmanlar dondurulmuş (Frozen), sadece son sınıflandırma katmanı 5 çiçek türü için yeniden eğitilmiştir.
+* **Teknik:** Depthwise Separable Convolution" yapısı sayesinde işlem yükü minimize edilmiştir.
 
 ### 4. Deneysel Sonuçlar ve Metrikler
 * **Model Ağırlığı:** `my_model.pth` (Offline çalışmaya uygun).
