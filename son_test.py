@@ -4,7 +4,7 @@ from PIL import Image
 import os
 
 # 1. Klasöründeki sınıf isimleri
-classes = ['daisy', 'dandelion', 'goldfish', 'roses', 'sunflowers', 'tulip']
+classes = ['daisy', 'dandelion', 'roses', 'sunflowers', 'tulip']
 
 # 2. Modeli internete hiç sormadan bilgisayarında kur
 model = models.mobilenet_v2(weights=None) 
@@ -40,4 +40,5 @@ if os.path.exists(resim_adi):
     print(f"YAPAY ZEKANIN TAHMİNİ: {sonuc.upper()}")
     print("="*40)
 else:
+
     print(f"\nHata: {resim_adi} bulunamadı!")
