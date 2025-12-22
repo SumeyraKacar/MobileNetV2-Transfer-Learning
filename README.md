@@ -11,7 +11,7 @@ Modern derin öğrenme modellerini sıfırdan eğitmek devasa donanım ve zaman 
 ### 2. Kullanılan Veri Seti ve Analizi
 * **Kaynak:** ImageNet (Genel) ve Kaggle Flowers Dataset (Özel).
 * **İşlem:** Görüntüler model girişine uygun olarak 224x224 boyutuna getirilmiştir.
-* **Normalizasyon:**ImageNet standartlarında (RGB kanalları için özel ortalama ve sapma değerleri) normalize edilerek modelin veriye daha hızlı uyum sağlaması sağlanmıştır.
+* **Normalizasyon:** ImageNet standartlarında (RGB kanalları için özel ortalama ve sapma değerleri) normalize edilerek modelin veriye daha hızlı uyum sağlaması sağlanmıştır.
 
 ### 3. Uygulanan Yöntem(ler)
 * **Model:** MobileNetV2 (Hafif ve verimli mimari).
