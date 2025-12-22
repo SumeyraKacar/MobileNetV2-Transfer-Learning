@@ -20,7 +20,7 @@ Eğitilmiş modelimizi test etmek ve bir çiçeğin türünü öğrenmek için y
 
     python son_test.py
 
-## 📊 Başarı Kanıtı
+## 📈 Başarı Kanıtı
 Yapılan testlerde model, daha önce hiç görmediği bir gül fotoğrafını (test_resmi.jpg) saniyeler içinde analiz etmiş ve şu sonucu üretmiştir:
 
 YAPAY ZEKANIN TAHMİNİ: ===> ROSES <===
