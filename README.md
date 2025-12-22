@@ -46,8 +46,7 @@ Eğitilmiş modelimizi test etmek ve bir çiçeğin türünü öğrenmek için y
 Yapılan testlerde model, daha önce hiç görmediği bir gül fotoğrafını (test_resmi.jpg) saniyeler içinde analiz etmiş ve şu sonucu üretmiştir:
 
 YAPAY ZEKANIN TAHMİNİ: ===> ROSES <===
-![Uploading image.png…]()
-
+<img width="505" height="93" alt="image" src="https://github.com/user-attachments/assets/60306afb-8385-4d0a-b8d1-9242c6982e09" />
 
 ## 🧠 Teknik Özellikler
 Model: MobileNetV2 (Hafif ve Verimli)
