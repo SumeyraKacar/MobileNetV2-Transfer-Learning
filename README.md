@@ -3,6 +3,26 @@
 Bu proje, PyTorch kütüphanesi ve **MobileNetV2** mimarisi kullanılarak doğadaki çiçek türlerini tanımak amacıyla geliştirilmiştir. 
 **Transfer Learning** yöntemiyle eğitilen model, internet bağlantısına ihtiyaç duymadan yerel ağırlıklar üzerinden çalışabilmektedir.
 
+## 📝 Sunum Maddelerine Göre Proje Özeti
+
+### 1. Problemin Tanımı ve Önemi
+Modern derin öğrenme modellerini sıfırdan eğitmek devasa donanım ve zaman maliyeti gerektirir. Bu projede, kısıtlı imkanlarla yüksek başarı elde etmek için **Transfer Learning** yaklaşımı kullanılmıştır.
+
+### 2. Kullanılan Veri Seti ve Analizi
+* **Kaynak:** ImageNet (Genel) ve Kaggle Flowers Dataset (Özel).
+* **Önişleme:** Görüntüler 224x224 boyutuna getirilmiş ve ImageNet standartlarında normalize edilmiştir.
+
+### 3. Uygulanan Yöntem(ler)
+* **Model:** MobileNetV2 (Hafif ve verimli mimari).
+* **Yapı:** Önceden eğitilmiş katmanlar dondurulmuş (Frozen), sadece son sınıflandırma katmanı 5 çiçek türü için yeniden eğitilmiştir.
+
+### 4. Deneysel Sonuçlar ve Metrikler
+* **Model Ağırlığı:** `my_model.pth` (Offline çalışmaya uygun).
+* **Sonuç:** `test_resmi.jpg` üzerinde yapılan testlerde doğru sınıflandırma başarısı elde edilmiştir.
+
+### 5. Genel Değerlendirme
+Model, düşük işlem gücüyle dahi mobil cihazlarda çalışabilecek kadar hızlıdır. İyileştirme olarak veri artırımı (Data Augmentation) teknikleri eklenebilir.
+
 ## 📂 Proje Yapısı
 - **train.py**: Modelin eğitim sürecini yönetir. MobileNetV2 mimarisini yükler ve son katmanı bizim veri setimize göre günceller.
 - **son_test.py**: Eğitilmiş `my_model.pth` dosyasını kullanarak tahminleme yapar.
