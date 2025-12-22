@@ -55,3 +55,5 @@ Yöntem: Transfer Learning (Önceden eğitilmiş ImageNet ağırlıkları kullan
 Giriş: 224x224 RGB Görüntüler
 
 Normalizasyon: ImageNet standartları (Mean: [0.485, 0.456, 0.406], Std: [0.229, 0.224, 0.225])
+
+Kütüphane: PyTorch & Torchvision
