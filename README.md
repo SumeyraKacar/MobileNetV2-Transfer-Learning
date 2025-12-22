@@ -6,7 +6,8 @@ Bu proje, PyTorch kütüphanesi ve **MobileNetV2** mimarisi kullanılarak doğad
 ## 📝 Sunum Maddelerine Göre Proje Özeti
 
 ### 1. Problemin Tanımı ve Önemi
-Modern derin öğrenme modellerini sıfırdan eğitmek devasa donanım ve zaman maliyeti gerektirir. Bu projede, kısıtlı imkanlarla yüksek başarı elde etmek için **Transfer Learning** yaklaşımı kullanılmıştır.
+Modern derin öğrenme modellerini sıfırdan eğitmek devasa donanım ve zaman maliyeti gerektirir. 
+Bu projede, kısıtlı imkanlarla yüksek başarı elde etmek için **Transfer Learning** yaklaşımı kullanılmıştır.
 
 ### 2. Kullanılan Veri Seti ve Analizi
 * **Kaynak:** ImageNet (Genel) ve Kaggle Flowers Dataset (Özel).
