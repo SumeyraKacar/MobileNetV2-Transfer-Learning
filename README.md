@@ -1,4 +1,5 @@
 🌸 Flower Classification with MobileNetV2 & Transfer Learning
+
 Bu proje, MobileNetV2 mimarisini kullanarak çiçek türlerini (Papatya, Karahindiba, Gül, Ayçiçeği, Lale) yüksek doğrulukla sınıflandırmayı amaçlayan bir Derin Öğrenme çalışmasıdır. 
 Projenin odak noktası, Transfer Learning (Transfer Öğrenme) ve Data Augmentation (Veri Artırma) tekniklerinin modelin genelleme yeteneği üzerindeki etkisini analiz etmektir.
 
@@ -27,12 +28,12 @@ Augmentation uygulanan model ise gerçek dünya verilerine karşı çok daha day
 🛠️ Kurulum
 1. Bu depoyu klonlayın:
 
-    git clone https://github.com/SumeyraKacar/MobileNetV2-Flower-Classification.git
-    cd MobileNetV2-Flower-Classification
+        git clone https://github.com/SumeyraKacar/MobileNetV2-Flower-Classification.git
+        cd MobileNetV2-Flower-Classification
 
 3. Gerekli kütüphaneleri yükleyin:
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 💻 Kullanım
 
