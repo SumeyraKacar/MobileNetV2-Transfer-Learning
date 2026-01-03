@@ -5,6 +5,7 @@ Bu proje, MobileNetV2 mimarisini kullanarak çiçek türlerini (Papatya, Karahin
 Projenin odak noktası, Transfer Learning (Transfer Öğrenme) ve Data Augmentation (Veri Artırma) tekniklerinin modelin genelleme yeteneği üzerindeki etkisini analiz etmektir.
 
 🚀 Öne Çıkan Özellikler
+
 Mimari: Google MobileNetV2 (Hafif ve verimli mobil uyumlu mimari).
 
 Teknik: Transfer Learning (ImageNet ağırlıkları ile ön eğitimli).
