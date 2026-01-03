@@ -16,6 +16,7 @@ Kıyaslama: Veri artırma (Augmentation) uygulanan ve uygulanmayan modellerin ba
 Analiz: Eğitim sonrası otomatik "Classification Report" ve "Confusion Matrix" üretimi.
 
 📊 Deneysel Sonuçlar
+
 Yapılan testler sonucunda Veri Artırma (Augmentation) yönteminin Overfitting (Aşırı Öğrenme) problemini nasıl engellediği somut bir şekilde gözlemlenmiştir:
 
 Metrik                 Veri Artırma YOK             Veri Artırma VAR 
@@ -51,6 +52,7 @@ MOD = 'PREDICT'
 predict_image('test_gorsel.jpg')
 
 📁 Proje Yapısı
+
 dataset/: Çiçek resimlerinin bulunduğu eğitim ve test klasörleri.
 
 train_with_aug.py: Ana eğitim ve tahmin scripti.
@@ -62,10 +64,12 @@ PROFESYONEL_ANALIZ_...png: Eğitim süreci başarı ve kayıp grafikleri.
 requirements.txt: Gerekli Python bağımlılıkları.
 
 🎓 Akademik Referans
+
 Bu çalışma Ankara Bilim Üniversitesi - Yapay Zeka Mühendisliği (AIE 521) kapsamında geliştirilmiştir.
 
 Geliştirici: Sümeyra KACAR
 
 Danışman: Dr. Öğretim Üyesi Abdülhalik OĞUZ
+
 
 ⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
