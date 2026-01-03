@@ -1,6 +1,7 @@
 🌸 Flower Classification with MobileNetV2 & Transfer Learning
 
-Bu proje, MobileNetV2 mimarisini kullanarak çiçek türlerini (Papatya, Karahindiba, Gül, Ayçiçeği, Lale) yüksek doğrulukla sınıflandırmayı amaçlayan bir Derin Öğrenme çalışmasıdır. 
+Bu proje, MobileNetV2 mimarisini kullanarak çiçek türlerini (Papatya, Karahindiba, Gül, Ayçiçeği, Lale) yüksek doğrulukla sınıflandırmayı amaçlayan bir Derin Öğrenme çalışmasıdır.
+
 Projenin odak noktası, Transfer Learning (Transfer Öğrenme) ve Data Augmentation (Veri Artırma) tekniklerinin modelin genelleme yeteneği üzerindeki etkisini analiz etmektir.
 
 🚀 Öne Çıkan Özellikler
