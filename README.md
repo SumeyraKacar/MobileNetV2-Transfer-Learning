@@ -20,7 +20,7 @@ Analiz: Eğitim sonrası otomatik "Classification Report" ve "Confusion Matrix" 
 Yapılan testler sonucunda Veri Artırma (Augmentation) yönteminin Overfitting (Aşırı Öğrenme) problemini nasıl engellediği somut bir şekilde gözlemlenmiştir:
 
 Metrik                 Veri Artırma YOK             Veri Artırma VAR 
------------------------------------------------------------------------
+**************         ***********************      ******************
 Test Accuracy          %91 (Ezberleme Eğilimli)     %89 (Daha Güvenilir)
 
 Ağırlıklı F1-Skoru     0.9131                       0.8870
