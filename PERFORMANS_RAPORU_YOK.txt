@@ -1,0 +1,15 @@
+PERFORMANS RAPORU (AUG: YOK)
+==============================
+              precision    recall  f1-score   support
+
+       daisy       0.93      0.87      0.90        31
+   dandelion       0.92      0.92      0.92        25
+        rose       0.90      0.87      0.89        31
+   sunflower       0.94      0.94      0.94        34
+       tulip       0.88      0.97      0.92        29
+
+    accuracy                           0.91       150
+   macro avg       0.91      0.91      0.91       150
+weighted avg       0.91      0.91      0.91       150
+
+Ağırlıklı F1-Skoru: 0.9131
